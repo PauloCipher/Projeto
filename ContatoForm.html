@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>--Formulário Contato--</title>
+    <meta charset="utf-8" />
+	<script language="JavaScript" src="caminho/JabaScript1.js.js"></script>
+    <link rel="stylesheet" type="text/css" href="ContatoEstilo.css">
+	
+ 
+</head>
+<body>
+    <form name="meu_form">
+ 
+        <h1>O Rei Arruinado Bug Report</h1>
+ 
+		<p class="nome">
+            <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+            <label for="nome">Nome</label>
+        </p>
+ 
+        <p class="Apelido">
+            <input type="text" id="Apelidoid" placeholder="Apelido" required="required" name="Apelido" />
+            <label for="Apelido">Apelido</label>
+        </p>
+        <p class="Versão">
+            <input type="text" id="VersaoId" placeholder="Versão do jogo" name="Versão" />
+            <label for="Versão">Versão</label>
+ 
+        </p>
+        <p>
+            <input type="email" id="emailid" placeholder="player@email.com" name="email" />
+            <label for="email">Email</label>
+        </p>
+        <p>
+            <textarea placeholder="Relatar Bug"></textarea>
+        </p>
+        <p class="submit">
+            <input type="submit" onclick="Enviar();" value="Enviar" />
+        </p>
+ 
+    </form>
+</body>
+</html>
